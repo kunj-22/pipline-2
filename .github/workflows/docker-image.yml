@@ -36,4 +36,4 @@ jobs:
             docker pull kunj22/python-app:latest
             docker stop python-app-container || true
             docker rm python-app-container || true
-            docker run -d -p 80:80 --name python-app-container kunj22/python-app: latest
+            docker run -d -p 80:80 --name python-app-container kunj22/python-app:latest
